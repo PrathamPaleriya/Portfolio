@@ -10,7 +10,7 @@ import {
 import CircleAnimation from "./components/animation/CircleAnimation";
 import Header from "./components/Header";
 import ProjectContainer from "./components/ProjectContainer";
-import SkillContainer from "./components/skillContainer";
+import SkillContainer from "./components/SkillContainer";
 import Footer from "./components/Footer";
 import excelwayImg from "./assets/projects/Excelway.png";
 import yelpcampinImg from "./assets/projects/yelpcampin.png";
