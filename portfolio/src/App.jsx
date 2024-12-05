@@ -21,6 +21,7 @@ import { useState } from "react";
 import Modal from "./components/Modal";
 import BlurIn from "./components/animation/BlurIn";
 import { TextFade } from "./components/animation/TextFade";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -213,6 +214,7 @@ function App() {
       </div>
 
       <Footer />
+      <Analytics/>
     </div>
   );
 }
