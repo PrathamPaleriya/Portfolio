@@ -144,8 +144,8 @@ function App() {
           <ProjectContainer
             ascent={"#e6f7e8"}
             src={plantifyImg}
-            title={"Yelpcampin"}
-            description={"A place where you can add and find campground."}
+            title={"Plantify"}
+            description={"An Online Marketplace for plants and Gradening accessories."}
             tags={["React", "Tailwind CSS", "Maria DB"]}
             github={"https://github.com/PrathamPaleriya/Plantify"}
             site={"https://plantifystore.vercel.app/"}
