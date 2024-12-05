@@ -21,8 +21,7 @@ import { useState } from "react";
 import Modal from "./components/Modal";
 import BlurIn from "./components/animation/BlurIn";
 import { TextFade } from "./components/animation/TextFade";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -216,7 +215,6 @@ function App() {
 
       <Footer />
       <Analytics/>
-      <SpeedInsights/>
     </div>
   );
 }
