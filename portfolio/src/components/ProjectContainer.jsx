@@ -7,7 +7,7 @@ function ProjectContainer({tags, src,title ,description, site, github, ascent, a
   return (
     <div className="relative flex items-center">
       <div style={{ backgroundColor: ascent }} className={`absolute w-full h-full lg:h-[433px] blur-[40px] md:blur-[80px] lg:blur-[108.20px]`}></div>
-      <div className={`my-10 lg:my-0 relative flex flex-col gap-10 lg:gap-0 ${alternate ? "lg:flex-row-reverse" : "lg:flex-row"} items-center w-full h-full justify-between z-10`}>
+      <div className={`my-10 lg:my-0 relative flex flex-col gap-10 lg:gap-24 ${alternate ? "lg:flex-row-reverse" : "lg:flex-row"} items-center w-full h-full justify-between z-10`}>
         <div className="h-full w-[110%] md:w-[100%] lg:w-[50%]">
           <img
             src={src}
@@ -16,7 +16,7 @@ function ProjectContainer({tags, src,title ,description, site, github, ascent, a
           />
         </div>
 
-        <div className="flex gap-5 md:gap-10 lg:gap-0 flex-col items-center lg:items-start justify-between text-start lg:h-[368px] lg:py-5">
+        <div className="flex w-[50%] gap-5 md:gap-10 flex-col items-center lg:items-start justify-between text-start lg:h-[368px] lg:py-5">
           <TextFade className="flex items-center gap-3">
             {tags.map((tag, index) => (
                 <div key={index}>

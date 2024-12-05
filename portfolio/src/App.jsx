@@ -145,7 +145,7 @@ function App() {
             ascent={"#e6f7e8"}
             src={plantifyImg}
             title={"Plantify"}
-            description={"An Online Marketplace for plants and Gradening accessories."}
+            description={"Online Marketplace for plants and Gradening accessories."}
             tags={["React", "Tailwind CSS", "Maria DB"]}
             github={"https://github.com/PrathamPaleriya/Plantify"}
             site={"https://plantifystore.vercel.app/"}
