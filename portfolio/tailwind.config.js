@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}'
@@ -71,7 +71,7 @@ module.exports = {
           },
         },
 
-        // puple circle
+        // purple circle
         pubbg: {
           '0%, 100%': {
             background: "#A020F0",
@@ -82,7 +82,6 @@ module.exports = {
             scale: 20
           },
         },
-        
       },
     },
   },
