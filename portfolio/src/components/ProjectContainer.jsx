@@ -6,7 +6,7 @@ import { TextFade } from "./animation/TextFade";
 function ProjectContainer({tags, src,title ,description, site, github, ascent, alternate = false}) {
   return (
     <div className="relative flex items-center">
-      <div style={{ backgroundColor: ascent }} className={`absolute w-full h-full lg:h-[433px] blur-[40px] lg:blur-[108.20px]`}></div>
+      <div style={{ backgroundColor: ascent }} className={`absolute w-full h-full lg:h-[433px] blur-[40px] md:blur-[80px] lg:blur-[108.20px]`}></div>
       <div className={`my-10 lg:my-0 relative flex flex-col gap-10 lg:gap-0 ${alternate ? "lg:flex-row-reverse" : "lg:flex-row"} items-center w-full h-full justify-between z-10`}>
         <div className="h-full w-[110%] md:w-[100%] lg:w-[50%]">
           <img

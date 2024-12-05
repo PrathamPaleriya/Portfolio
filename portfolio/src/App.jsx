@@ -115,7 +115,7 @@ function App() {
         </div>
 
         {/* Projects */}
-        <div className="my-32 lg:my-44 text-center space-y-20 lg:space-y-40">
+        <div className="my-32 lg:my-44 text-center space-y-12 md:space-y-24 lg:space-y-40">
           <TextFade className="flex flex-col items-center gap-3 lg:gap-5 z-10">
             <div className="text-base md:text-xl lg:text-2xl font-serif">Projects</div>
             <div className="text-2xl md:text-3xl lg:text-4xl">Solutions that I&#39;ve build</div>
