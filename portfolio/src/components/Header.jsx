@@ -35,18 +35,18 @@ function Header() {
 
   return (
     <header
-      className={`fixed w-full lg:h-[88px] flex justify-between items-center lg:px-20 lg:py-3 ${
+      className={`fixed w-full lg:h-[88px] flex justify-between items-center p-5 lg:px-20 lg:py-3 ${
         isScrolled
           ? "bg-white bg-opacity-20 backdrop-blur-lg"
           : "bg-transparent"
       } z-50`}
     >
-      <div className="lg:text-xl font-serif">Pratham's Portfolio</div>
+      <div className="text-base md:text-lg lg:text-xl font-serif">Pratham's <br className="block md:hidden"/>Portfolio</div>
       <motion.a
         whileHover={{}}
         whileTap={{ scale: 0.9 }}
         transition={{ type: "spring" }}
-        className="px-10 py-2 font-sans font-bold bg-pblue rounded-full text-white animate-gradient-bg cursor-pointer"
+        className="px-4 py-1 md:px-5 md:py-2 lg:px-10 lg:py-2 font-sans font-bold bg-pblue rounded-full text-white animate-gradient-bg cursor-pointer"
         href={resume} download
       >
         Resume

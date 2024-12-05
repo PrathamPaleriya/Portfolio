@@ -40,27 +40,27 @@ function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="relative w-full h-fit z-10 bg-white lg:p-[21px] rounded-xl font-sans">
+    <form onSubmit={handleSubmit} className="relative w-full h-fit z-10 bg-white p-5 lg:p-[21px] rounded-xl font-sans">
       <div className="grid grid-cols-2 gap-5 w-full h-fit">
-        <div className="col-span-1">
+        <div className="col-span-2 lg:col-span-1">
           <div className="text-sm text-start font-sans my-2">First Name:</div>
           <input
             type="text"
             name="first_name"
             value={formData.first_name}
             onChange={handleChange}
-            className="bg-[#f0f0f0] rounded-lg w-full lg:p-3"
+            className="bg-[#f0f0f0] rounded-lg w-full px-3 py-2 lg:p-3"
             required
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-2 lg:col-span-1">
           <div className="text-sm text-start font-sans my-2">Last Name:</div>
           <input
             type="text"
             name="last_name"
             value={formData.last_name}
             onChange={handleChange}
-            className="bg-[#f0f0f0] rounded-lg w-full lg:p-3"
+            className="bg-[#f0f0f0] rounded-lg w-full px-3 py-2 lg:p-3"
             required
           />
         </div>
@@ -71,7 +71,7 @@ function ContactForm() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="bg-[#f0f0f0] rounded-lg w-full lg:p-3"
+            className="bg-[#f0f0f0] rounded-lg w-full px-3 py-2 lg:p-3"
             required
           />
         </div>
@@ -82,7 +82,7 @@ function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             rows={4}
-            className="bg-[#f0f0f0] rounded-lg w-full lg:p-3"
+            className="bg-[#f0f0f0] rounded-lg w-full px-3 py-2 lg:p-3"
             required
           />
         </div>
